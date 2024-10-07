@@ -13,9 +13,6 @@ function validateAccess(role, status) {
   }
 
   // Contoh penggunaan:
-const user2 = { role: 'user', status: 'active' };
-const user3 = { role: 'user', status: 'inactive' };
-const user4 = { role: 'guest', status: 'active' };
 
 console.log(validateAccess('admin','active')); // Output: akses diizinkan, Admin memiliki akses penuh true
 console.log(validateAccess('admin','inactive')); // Output: akses diizinkan, Admin memiliki akses penuh true
